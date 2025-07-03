@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  height: 40px;
+  border-radius: unset;
+  position: unset;
+  nav {
+    ul {
+      flex-flow: row nowrap;
+      justify-content: center;
+      padding: unset;
+      li {
+        width: fit-content;
+        &:hover {
+          background-color: unset;
+        }
+        a {
+          transition: 500ms;
+          &:hover {
+            color: gold;
+          }
+        }
+      }
+    }
+  }
+  label[for="close"]{
+    display: none;
+  }
+}
+
+input#close,
+input#show,
+label[for="show"], .showBtn {
+  display: none;
+}
